@@ -20,3 +20,8 @@ if(Object.keys(emptyObj).length === 0){
 const price = 100;
 
 price >= 100 ? console.log("true") : console.log("false")
+
+// Infinity loop added
+for (let i = 0; i < (1/0); i++) {
+    console.log("Champion")
+}
